@@ -22,8 +22,7 @@ API: WeatherAPI
  
 
 ![WhatsApp Image 2025-06-20 at 03 12 47_ea978ba2](https://github.com/user-attachments/assets/e4679710-a8f1-4e56-bfcc-81ccad52066b)
-![WhatsApp Image 2025-06-20 at 03 12 46_e74738fb](https://github.com/user-attachments/assets/b6847147-ab8a-45d6-bd85-9f5142c3fbae)
-![WhatsApp Image 2025-06-20 at 03 12 46_c8c514c6](https://github.com/user-attachments/assets/a2e8018b-45ed-479e-aa93-5474f70a9802)
+
 
 
 
