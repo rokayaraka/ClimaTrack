@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+
+import 'package:weatherapp_clima/models/weather_model.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:weatherapp_clima/models/weather_model.dart';
 
 class WeatherServices {
   final String apiKey = '255ffdb4187b35ad2ac7667bf3718b06';
