@@ -1,10 +1,35 @@
-# weatherapp_clima
+🌦️ Weather App
+A simple, elegant, and responsive weather application that provides real-time weather updates, forecasts, and location-based weather data. Built with modern web technologies.
 
-A new Flutter project.
+✨ Features
+ * Real-time Weather Data – Fetches current weather conditions (temperature, humidity, wind speed, etc.).
+ * Responsive Design – Works on mobile, tablet, and desktop.
+ * Weather Icons – Visual representation of weather conditions.
 
-## Getting Started
+🛠️ Built With
+Frontend: Flutter, Dart
+API: WeatherAPI 
 
-This project is a starting point for a Flutter application.
+🚀 Getting Started
+ 1. Clone the repo:
+    git clone https://github.com/rokayaraka/ClimaTrack.git
+ 2. Install dependencies:
+    npm install
+ 3. Get an API key from WeatherApi and add it to a .env file.
+ 4. Run the app.
+    
+ 📸 Screenshots:
+ 
+
+![WhatsApp Image 2025-06-20 at 03 12 47_ea978ba2](https://github.com/user-attachments/assets/e4679710-a8f1-4e56-bfcc-81ccad52066b)
+![WhatsApp Image 2025-06-20 at 03 12 46_e74738fb](https://github.com/user-attachments/assets/b6847147-ab8a-45d6-bd85-9f5142c3fbae)
+![WhatsApp Image 2025-06-20 at 03 12 46_c8c514c6](https://github.com/user-attachments/assets/a2e8018b-45ed-479e-aa93-5474f70a9802)
+
+
+
+🤝 Contributing
+Feel free to open issues or submit PRs for improvements!
+
 
 A few resources to get you started if this is your first Flutter project:
 
