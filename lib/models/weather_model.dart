@@ -4,6 +4,7 @@ class Weather{
 
   final String cityName;
   final double temparature;
+  final String main;
   final String description;
   final int humidity;
   final double windSpeed;
@@ -12,7 +13,8 @@ class Weather{
 
   Weather({
   required this.cityName,
-   required this.temparature,
+  required this.temparature,
+  required this.main,
   required this.description,
   required this.humidity,
   required this.windSpeed,
@@ -25,15 +27,28 @@ class Weather{
 
 
   factory Weather.fromJson(Map<String,dynamic> json){
-
+    final weatherList = json['weather'] as List<dynamic>;
+    final weather = weatherList.isNotEmpty ? weatherList[0] : {};
+    
     return Weather(
       cityName: json['name'],
-      temparature: json['main']['temp'] -273.15,
-      description: json['weather']['description'],
+      temparature: (json['main']['temp'] as num).toDouble() - 273.15,
+      main: weather['main'] ?? '',
+      description: weather['description'] ?? '',
       humidity: json['main']['humidity'],
-      windSpeed: json['wind']['speed'],
+      windSpeed: (json['wind']['speed'] as num).toDouble(),
       sunrize: json['sys']['sunrise'],
-      sunset: json['sys']['sunset']
-            );
+      sunset: json['sys']['sunset'],
+    );
+    // return Weather(
+    //   cityName: json['name'],
+    //   temparature: json['main']['temp'] -273.15,
+    //   description: json['weather']['description'],
+    //   humidity: json['main']['humidity'],
+    //   windSpeed: json['wind']['speed'],
+    //   sunrize: json['sys']['sunrise'],
+    //   sunset: json['sys']['sunset']
+    //         );
   }
 }
+
